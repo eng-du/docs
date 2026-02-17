@@ -1,10 +1,14 @@
 <img width="2048" height="783" alt="image" src="https://github.com/user-attachments/assets/dc7be478-3623-4bbc-aee5-efcbc9704686" />
 
+<br>
+
 # 잉듀는 어떤 서비스인가요?
 
 > **Eng**lish + e**du**cation = **Engdu**
 
 잉듀는 생성형 AI를 활용한 `영어 독해 학습 서비스`에요. 원하는 주제로 영어 지문과 퀴즈를 생성하여, 영어 독해를 어려워하는 초보자 분들도 재미있게 학습을 시작할 수 있어요.
+
+<br>
 
 # 왜 이런 서비스를 만들게 됐나요?
 
@@ -20,6 +24,8 @@
 잉듀 개발팀은 이 문제점들을 소프트웨어적으로 해결하고 싶었어요. 
 
 생성형 AI로 학습자가 읽고 싶은 주제의 지문을 읽으면 **학습 경험이 보다 재밌을** 거라 기대했어요. 또, 지문을 읽는 과정에서 학습을 도울 수 있는 **인터랙티브한 요소**가 있다면 **초보자의 학습 허들을 낮추고** 몰입감있게 독해 공부를 할 수 있을 거라 생각했어요.
+
+<br>
 
 # 잉듀 개발팀을 소개합니다.
 
@@ -48,3 +54,16 @@
 
 </tr>
 </table>
+
+
+<h3 align="center">
+  <img width="60" alt="image" src="https://github.com/user-attachments/assets/4aa82d3d-0384-4f73-bbe5-54f2dbe1b164" />
+  Repositories
+  <img width="60" alt="image" src="https://github.com/user-attachments/assets/4aa82d3d-0384-4f73-bbe5-54f2dbe1b164" />
+</h3>
+
+<p align="center">
+  <a href="https://github.com/eng-du/backend"><b>eng-du/backend</b></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/eng-du/frontend"><b>eng-du/frontend</b></a>
+</p>
