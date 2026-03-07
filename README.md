@@ -27,6 +27,18 @@
 
 <br>
 
+# 기능을 소개합니다!
+
+https://github.com/user-attachments/assets/c1453eb1-141b-4d50-bb3d-981ece7ccd0c
+
+https://github.com/user-attachments/assets/bb167bc9-c9ae-42bc-9f28-699c2d0cac97
+
+https://github.com/user-attachments/assets/b7542288-875e-4995-a75d-37c8fd53f62b
+
+https://github.com/user-attachments/assets/11816eb2-d39c-438c-ace7-6c3da9e5d8ef
+
+<br>
+
 # 잉듀 개발팀을 소개합니다.
 
 잉듀 개발팀은 1명의 프론트엔드 개발자와 1명의 백엔드 개발자로 총 2명으로 구성되어 있어요. 전체적인 방향성, 서비스 기획은 두 명의 개발자가 같이 논의하며 결정해요.
