@@ -29,13 +29,34 @@
 
 # 기능을 소개합니다!
 
-https://github.com/user-attachments/assets/c1453eb1-141b-4d50-bb3d-981ece7ccd0c
+### 1️⃣ 영어 학습 주제 입력
 
-https://github.com/user-attachments/assets/bb167bc9-c9ae-42bc-9f28-699c2d0cac97
+사용자는 원하는 **주제나 키워드**를 입력하여 영어 학습을 시작할 수 있어요.  
+입력된 내용을 기반으로 AI가 **영어 학습 콘텐츠를 자동 생성해요.**
 
-https://github.com/user-attachments/assets/b7542288-875e-4995-a75d-37c8fd53f62b
+![input](https://github.com/user-attachments/assets/4ecd5ffe-6f8b-4973-a20b-f0d4b38b9370)
 
-https://github.com/user-attachments/assets/11816eb2-d39c-438c-ace7-6c3da9e5d8ef
+### 2️⃣ 생성 대기 중 구동사 학습
+
+영어 학습 콘텐츠가 생성되는 데 약 **1분 정도의 시간이 소요돼요.**  지루할 수 있는 대기 시간을 활용해 **구동사**를 먼저 학습할 수 있도록 했어요.  
+구동사의 의미와 예문을 통해 **자주 사용되는 영어 표현을 자연스럽게 익힐 수 있어요.**
+
+![phrasal](https://github.com/user-attachments/assets/6cf0dbbd-cf0b-4a6d-9260-b84adf978dfc)
+
+### 3️⃣ 청크 기반 독해
+
+문장을 **청크 단위로 분리**하여 영어 문장을 단계적으로 이해할 수 있도록 도와요.  
+클릭을 통해 **원문과 해석을 번갈아 확인**하며 직독직해 방식의 독해 연습을 할 수 있어요.
+
+![chunk](https://github.com/user-attachments/assets/5117c7e6-64a3-42ca-bf08-063ae8942240)
+
+### 4️⃣ 이해도 확인 퀴즈
+
+지문을 읽은 뒤 **퀴즈를 통해 학습 내용을 점검할 수 있어요.**
+문제는 **독해(내용 일치/불일치), 문법, 어휘(유의어/반의어)** 로 구성되어 있어요.  
+정답 여부와 함께 해설이 제공되어 **학습 내용을 다시 복습할 수 있어요.**
+
+![quiz](https://github.com/user-attachments/assets/d1b1dd05-0b6e-4b05-aee9-47f53e174dd6)
 
 <br>
 
