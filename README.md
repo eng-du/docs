@@ -100,3 +100,30 @@
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://github.com/eng-du/frontend"><b>eng-du/frontend</b></a>
 </p>
+
+
+# 잉듀 개발팀의 기술적 고민을 소개합니다.
+
+서비스를 만들어가는 과정에서 마주한 다양한 기술적 고민과 해결의 흔적을 기록합니다. 이외의 더 자세한 경험들은 [위키](https://github.com/eng-du/docs/wiki)에서 확인할 수 있습니다.
+
+### **[BE] LLM 기반 콘텐츠 생성에서 발생한 중복 생성 문제를 SQS와 상태 머신으로 해결하기**
+
+LLM API 호출 시간이 긴 환경에서 발생한 콘텐츠 중복 생성 문제를 해결하기 위해 상태 머신 기반 구조와 AWS SQS를 활용한 비동기 처리 방식을 도입했습니다. 이 글에서는 중복 생성 방지 설계, 워커 장애로 인한 고아 상태 처리 전략, 그리고 외부 LLM API 장애 상황에서도 안정적으로 작업을 재처리할 수 있도록 구성한 아키텍처를 중심으로 설명합니다.
+
+> 작성자: 박영규
+> 
+> 
+> 🔗 [링크](https://github.com/eng-du/docs/wiki/LLM-%EA%B8%B0%EB%B0%98-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%83%9D%EC%84%B1%EC%97%90%EC%84%9C-%EB%B0%9C%EC%83%9D%ED%95%9C-%EC%A4%91%EB%B3%B5-%EC%83%9D%EC%84%B1-%EB%AC%B8%EC%A0%9C%EB%A5%BC-SQS%EC%99%80-%EC%83%81%ED%83%9C-%EB%A8%B8%EC%8B%A0%EC%9C%BC%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
+> 
+
+### **[BE] 아웃 박스 패턴으로 메시지 발행과 DB 정합성을 보장하기**
+
+LLM 기반 콘텐츠 생성 과정에서 DB 트랜잭션과 메시지 발행이 서로 다른 시스템에서 처리되면서, 메시지가 먼저 처리되거나 트랜잭션이 롤백되었음에도 메시지가 발행되는 일관성 문제가 발생했습니다. 이로 인해 예상치 못한 예외가 증가하고, 사용자 대기 시간이 늘어나는 등 서비스 품질에 영향을 미치는 문제가 확인되었습니다.
+
+이 글에서는 이러한 문제를 해결하기 위해 Transactional Outbox 패턴을 도입한 과정을 설명합니다.
+
+> 작성자: 박영규
+> 
+> 
+> 🔗 [링크](https://github.com/eng-du/docs/wiki/LLM-%EA%B8%B0%EB%B0%98-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%83%9D%EC%84%B1%EC%97%90%EC%84%9C-%EB%B0%9C%EC%83%9D%ED%95%9C-%EC%A4%91%EB%B3%B5-%EC%83%9D%EC%84%B1-%EB%AC%B8%EC%A0%9C%EB%A5%BC-SQS%EC%99%80-%EC%83%81%ED%83%9C-%EB%A8%B8%EC%8B%A0%EC%9C%BC%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
+>
